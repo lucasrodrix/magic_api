@@ -3,38 +3,6 @@
 ## Introdução
 Este documento fornece uma visão geral do projeto de desenvolvimento de uma API RESTful para gerenciamento de cartas do jogo Magic: The Gathering. O projeto utiliza PHP 7.*, MySQL 5.7, e Slim Framework 3 para roteamento, seguindo padrões de design orientado a objetos.
 
-### Estrutura do Projeto
-magic_api/
-│
-├── config/
-│   ├── settings.php
-│   └── dependencies.php
-│
-├── public/
-│   └── index.php
-│
-├── routes/
-│   └── routes.php
-│   
-├── src/
-│   ├── Controllers/
-│   │   ├── AuthController.php
-│   │   ├── CardController.php
-│   │   └── EditionController.php
-│   │
-│   ├── Middleware/
-│   │   └── AuthMiddleware.php
-│   │
-│   └── Models/
-│       ├── User.php
-│       ├── Card.php
-│       └── Edition.php
-│
-├── vendor/
-│
-├── composer.json
-└── bancodedados.sql
-
 # Componentes Principais
 
 ## 1. Configuração (`config/`)
